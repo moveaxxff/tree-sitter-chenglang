@@ -23,7 +23,7 @@ module.exports = grammar({
 
     _expression: $ => choice(
       $.identifier,
-      $.number
+      $.number,
       $.parenthesized_expression
       // TODO: other kinds of expressions
     ),
@@ -65,10 +65,7 @@ module.exports = grammar({
       $.parenthesized_expression,
       $.block
     ),
-
-
     identifier: $ => /[a-z]+/,
-
     number: $ => /\d+/
   }
 });
