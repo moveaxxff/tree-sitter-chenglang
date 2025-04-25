@@ -2,7 +2,7 @@
   "name": "tree-sitter-chenglang",
   "version": "0.1.1",
   "description": "custom shona programming language",
-  "repository": "https://github.com/tree-sitter/tree-sitter-chenglang",
+  "repository": "https://github.com/moveaxxff/tree-sitter-chenglang",
   "license": "MIT",
   "author": {
     "name": "moveaxxff",
