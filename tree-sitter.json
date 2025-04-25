@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "chenglang",
+      "camelcase": "Chenglang",
+      "title": "Chenglang",
+      "scope": "source.chenglang",
+      "file-types": [
+        "cheng"
+      ],
+      "injection-regex": "^chenglang$",
+      "class-name": "TreeSitterChenglang"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.1",
+    "license": "MIT",
+    "description": "custom shona programming language",
+    "authors": [
+      {
+        "name": "moveaxxff",
+        "email": "moveaxxff@gmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-chenglang"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
