@@ -5,12 +5,24 @@
       "name": "chenglang",
       "camelcase": "Chenglang",
       "title": "Chenglang",
-      "scope": "source.chenglang",
+      "scope": "source.cheng",
       "file-types": [
         "cheng"
       ],
       "injection-regex": "^chenglang$",
-      "class-name": "TreeSitterChenglang"
+      "class-name": "TreeSitterChenglang",
+      "path": ".",
+      "highlights": [
+        "queries/cheng/highlights.scm"
+      ] 
+    }
+  ],
+  "tree-sitter": [
+    {
+      "scope": "source.cheng",
+      "file-types": [
+        "cheng"
+      ]
     }
   ],
   "metadata": {
@@ -35,5 +47,11 @@
     "rust": true,
     "swift": true,
     "zig": false
-  }
+  },
+   "theme": {
+    "keyword": "purple",
+    "function": "blue",
+    "type": "green",
+    "number": "brown"
+  } 
 }
